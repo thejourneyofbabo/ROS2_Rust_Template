@@ -1,0 +1,11 @@
+[template]
+cargo_generate_version = ">=0.9.0"
+description = "ROS2 Rust Workspace Template"
+
+[hooks]
+pre = ["cargo-generate/prehook.rhai"]
+
+[placeholders.hal]
+type = "string"
+license = { type = "string", prompt = "What license to use?", choices = ["APACHE", "MIT"], default = "MIT" }
+
