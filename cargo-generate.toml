@@ -2,8 +2,8 @@
 cargo_generate_version = ">=0.9.0"
 description = "ROS2 Rust Workspace Template"
 
-[hooks]
-pre = ["prehook.rhai"]
+# [hooks]
+# pre = ["prehook.rhai"]
 
 # [placeholders.hal]
 # type = "string"
